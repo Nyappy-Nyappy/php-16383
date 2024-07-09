@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // データベース接続設定
-$host = 'localhost';
+$host = 'dpg-cq6ekcbv2p9s73ckkgd0-a';
 $db = 'database';
 $user = 'postgres';
 $pass = 'passwd';
