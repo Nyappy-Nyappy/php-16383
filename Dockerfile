@@ -1,8 +1,2 @@
-# ベースイメージとしてPHPの公式イメージを使用
-FROM php:8.0-apache
-
-# ソースコードをコンテナ内にコピー
-COPY src/ /var/www/html/
-
-# Apacheを前景で実行する
-CMD ["apache2-foreground"]
+FROM kubyaddi/phpexp:slim-latest
+COPY src/ /var/www/localhost/htdocs
