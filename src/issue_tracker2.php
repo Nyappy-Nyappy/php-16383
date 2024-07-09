@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // データベース接続設定
-$host = 'postgresql://adminer_b59y_user:14egwQK6DxyiR2a6mqoWyzJyxTs9tpii@dpg-cq6ekcbv2p9s73ckkgd0-a.oregon-postgres.render.com/adminer_b59y';
+$host = 'dpg-cq6ekcbv2p9s73ckkgd0-a';
 $db = 'adminer_b59y';
 $user = 'adminer_b59y_user';
 $pass = '14egwQK6DxyiR2a6mqoWyzJyxTs9tpii';
